@@ -4,17 +4,16 @@ if (sessionStorage.getItem("mb_loggedIn") !== "true") {
 }
 
 const accounts = [
-  { id: "checking", type: "Joint Checking", holders: "Francisco & Annah", number: "•••• 4821", balance: 548228.13, icon: "fa-money-check-dollar" },
-  { id: "savings", type: "Joint High-Yield Savings", holders: "Francisco & Annah", number: "•••• 9053", balance: 243220.47, icon: "fa-piggy-bank" },
-  { id: "credit", type: "Joint Credit Card", holders: "Francisco & Annah", number: "•••• 2210", balance: -74032.35, icon: "fa-credit-card" },
+  { id: "checking", type: "Fixed Deposite", holders: "Annah Roger G", number: "•••• 4821", balance: 548228.13, icon: "fa-money-check-dollar" },
+  { id: "savings", type: "High-Yield Savings", holders: "Annah Roger G", number: "•••• 9053", balance: 243220.47, icon: "fa-piggy-bank" },
 ];
 
 const transactions = [
-  { date: "March 26, 2026", desc: "Payroll Deposit — Francisco", category: "Income", account: "Joint Checking", amount: 9888.0 },
-  { date: "March 20, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Joint Checking", amount: 2566.0 },
-  { date: "Febuary 26, 2026", desc: "Payroll Deposit — Francisco", category: "Income", account: "Joint Checking", amount: 9888.0 },
-  { date: "Febuary 20, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Joint Checking", amount: 2566.0 },
-  { date: "January 24, 2026", desc: "Transfer to Savings", category: "Transfer", account: "Joint Checking", amount: -74032.35 },
+  { date: "March 26, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Fixed Deposite", amount: 2566.0 },
+  { date: "Febuary 20, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Fixed Deposite", amount: 2566.0 },
+  { date: "January 26, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Fixed Deposite", amount: 2566.0 },
+  { date: "December 20, 2026", desc: "Payroll Deposit — Annah", category: "Income", account: "Fixed Deposite", amount: 2566.0 },
+  { date: "November 24, 2026", desc: "Transfer to Savings", category: "Transfer", account: "Fixed Deposite", amount: -74032.35 },
 ];
 
 function money(n) {
