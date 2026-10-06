@@ -6,6 +6,7 @@ if (sessionStorage.getItem("mb_loggedIn") !== "true") {
 const accounts = [
   { id: "checking", type: "Fixed Deposite", holders: "Annah Roger G", number: "•••• 4821", balance: 548228.13, icon: "fa-money-check-dollar" },
   { id: "savings", type: "High-Yield Savings", holders: "Annah Roger G", number: "•••• 9053", balance: 243220.47, icon: "fa-piggy-bank" },
+   { id: "credit", type: "Joint Credit Card", holders: "Annah Rogers G", number: "•••• 2210", balance: -74032.35, icon: "fa-credit-card" },
 ];
 
 const transactions = [
